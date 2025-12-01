@@ -1,0 +1,5 @@
+{
+  "name": "AetherTable VTT",
+  "description": "A virtual tabletop RPG platform with an AI Dungeon Master powered by Gemini 2.5. Features interactive grid combat, dice rolling, and dynamic narrative generation.",
+  "requestFramePermissions": []
+}

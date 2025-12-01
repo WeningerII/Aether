@@ -1,0 +1,20 @@
+
+import { Item } from '../../types';
+
+export const MAGIC_WANDS: Item[] = [
+    { id: 'wand_binding', name: 'Wand of Binding', type: 'magic', rarity: 'rare', cost: 60000, weight: 1, quantity: 1, description: '7 charges. Hold Monster (5), Hold Person (2).', charges: { current: 7, max: 7, recharge: '1d6+1 at dawn' }, spells: [{ name: 'Hold Monster', cost: 5 }, { name: 'Hold Person', cost: 2 }] },
+    { id: 'wand_enemy_detection', name: 'Wand of Enemy Detection', type: 'magic', rarity: 'rare', cost: 20000, weight: 1, quantity: 1, description: '7 charges. Sense hostile creatures within 60ft.' },
+    { id: 'wand_fear', name: 'Wand of Fear', type: 'magic', rarity: 'rare', cost: 60000, weight: 1, quantity: 1, description: '7 charges. Command (1), Fear (3).', charges: { current: 7, max: 7, recharge: '1d6+1 at dawn' }, spells: [{ name: 'Command', cost: 1 }, { name: 'Fear', cost: 3 }] },
+    { id: 'wand_fireballs', name: 'Wand of Fireballs', type: 'magic', rarity: 'rare', cost: 60000, weight: 1, quantity: 1, description: '7 charges. Fireball (1+).', charges: { current: 7, max: 7, recharge: '1d6+1 at dawn' }, spells: [{ name: 'Fireball', cost: 1 }] },
+    { id: 'wand_lightning_bolts', name: 'Wand of Lightning Bolts', type: 'magic', rarity: 'rare', cost: 60000, weight: 1, quantity: 1, description: '7 charges. Lightning Bolt (1+).', charges: { current: 7, max: 7, recharge: '1d6+1 at dawn' }, spells: [{ name: 'Lightning Bolt', cost: 1 }] },
+    { id: 'wand_magic_detection', name: 'Wand of Magic Detection', type: 'magic', rarity: 'uncommon', cost: 10000, weight: 1, quantity: 1, description: '3 charges. Detect Magic.', charges: { current: 3, max: 3, recharge: '1d3 at dawn' }, spells: [{ name: 'Detect Magic', cost: 1 }] },
+    { id: 'wand_magic_missiles', name: 'Wand of Magic Missiles', type: 'magic', rarity: 'uncommon', cost: 30000, weight: 1, quantity: 1, description: '7 charges. Magic Missile (1+).', charges: { current: 7, max: 7, recharge: '1d6+1 at dawn' }, spells: [{ name: 'Magic Missile', cost: 1 }] },
+    { id: 'wand_paralysis', name: 'Wand of Paralysis', type: 'magic', rarity: 'rare', cost: 60000, weight: 1, quantity: 1, description: '7 charges. Ranged spell attack to paralyze target (DC 15 Con save).', charges: { current: 7, max: 7, recharge: '1d6+1 at dawn' } },
+    { id: 'wand_polymorph', name: 'Wand of Polymorph', type: 'magic', rarity: 'very_rare', cost: 100000, weight: 1, quantity: 1, description: '7 charges. Polymorph (1).', charges: { current: 7, max: 7, recharge: '1d6+1 at dawn' }, spells: [{ name: 'Polymorph', cost: 1 }] },
+    { id: 'wand_secrets', name: 'Wand of Secrets', type: 'magic', rarity: 'uncommon', cost: 15000, weight: 1, quantity: 1, description: '3 charges. Detect secret doors/traps within 60ft.' },
+    { id: 'wand_war_mage_1', name: 'Wand of the War Mage +1', type: 'magic', rarity: 'uncommon', cost: 30000, weight: 1, quantity: 1, description: '+1 to Spell Attack rolls. Ignore half cover.', passiveBonuses: [{ stat: 'spell_attack', value: 1 }] },
+    { id: 'wand_war_mage_2', name: 'Wand of the War Mage +2', type: 'magic', rarity: 'rare', cost: 60000, weight: 1, quantity: 1, description: '+2 to Spell Attack rolls. Ignore half cover.', passiveBonuses: [{ stat: 'spell_attack', value: 2 }] },
+    { id: 'wand_war_mage_3', name: 'Wand of the War Mage +3', type: 'magic', rarity: 'very_rare', cost: 120000, weight: 1, quantity: 1, description: '+3 to Spell Attack rolls. Ignore half cover.', passiveBonuses: [{ stat: 'spell_attack', value: 3 }] },
+    { id: 'wand_web', name: 'Wand of Web', type: 'magic', rarity: 'uncommon', cost: 30000, weight: 1, quantity: 1, description: '7 charges. Web (1).', charges: { current: 7, max: 7, recharge: '1d6+1 at dawn' }, spells: [{ name: 'Web', cost: 1 }] },
+    { id: 'wand_wonder', name: 'Wand of Wonder', type: 'magic', rarity: 'rare', cost: 60000, weight: 1, quantity: 1, description: '7 charges. Random effect (Fireball, Lightning, Stinking Cloud, etc.).', charges: { current: 7, max: 7, recharge: '1d6+1 at dawn' } }
+];
